@@ -61,23 +61,23 @@ let's check it out
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 >`ls`
 
 
 
 
 >`get UAT_Testing_Procedures.pdf`
+
+
+
+
+
+![43443434](https://user-images.githubusercontent.com/64806211/126033678-a9b91136-3069-41a5-a48e-fc7fb5d45542.png)
+
+
+
+
+
 
 After viewing the pdf 
 
@@ -228,7 +228,7 @@ second :
 
 
 
-finally 
+Finally 
 
 
 
