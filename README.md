@@ -98,5 +98,47 @@ and i found alot of blogs and wepsites talking about that and what is used for
 
 
 So i make a fake `latest.yml`to bypass the payload security check and excute it directly
-so i write the shell what will excute our payload to allow us gegt a REV- 
-so you can `dowmload` it using terminal :
+so i write the shell what will excute our payload to allow us get a REV- 
+so you can `dowmload` it from this link : 
+
+
+>`https://github.com/AhmedMoustafa518/atom_-HTB-Writeup-/blob/ab8f980070ae6e04892c7a0cec50c1df70c9db68/electron_destructor.sh`
+
+
+
+so to excute it type : 
+
+
+>`chmod +x electron_destructor.sh`
+
+
+
+and let's run it : 
+
+
+>`./electron_destructor.sh`
+
+
+
+
+![8](https://user-images.githubusercontent.com/64806211/126031921-1b6f73b0-02c3-474e-9dcf-6efd2d9419b3.png)
+
+
+Now let's run the listener upload `latest.yml`  and wait until it listen somtheing 
+
+
+
+![9](https://user-images.githubusercontent.com/64806211/126032019-5192edd3-7442-413b-a009-2cacbf29a6a9.png) 
+
+
+And bingoooooooooo we got the user flag !
+
+
+![11](https://user-images.githubusercontent.com/64806211/126032084-580a8c33-c17d-4336-a9db-a8bea09d92d1.png)
+
+
+
+![10](https://user-images.githubusercontent.com/64806211/126032041-4f40a326-756e-498d-876e-01d630a9c5c4.png) 
+
+
+
