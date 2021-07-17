@@ -2,6 +2,9 @@
 This  is my first Writeup
 
 Machine      : Atom
+
+
+
 Difficulty   : MEDIUM
 
 
@@ -19,4 +22,21 @@ Difficulty   : MEDIUM
 ![3](https://user-images.githubusercontent.com/64806211/126028026-f28b60f4-1e1c-4782-a5bd-1570af7863b3.png)
 
 So here we got 4 open ports
+
+
 GREEEEEEEEEEET"""
+
+
+After checking the site, I couldn't find anything 
+
+
+!So let's try smbclient 
+
+
+
+
+
+
+![4](https://user-images.githubusercontent.com/64806211/126028702-2f69539a-4280-4db8-a59c-9931abe42764.png)
+
+
