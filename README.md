@@ -149,4 +149,28 @@ And bingoooooooooo we got the user flag !
 
 
 
+it’s time for escalation to get the root flag 
+
+
+
+Didn’t take too long to find the application called PortableKanban in jason’s downloads 
+
+
+
+after searching about portablekanban I found that portablekanban uses a kind of database called redis and by default we can login by the username administrator and a blank password so let's download it using terminal :
+
+
+>`apt install redis-tools` 
+
+
+
+![ins rr](https://user-images.githubusercontent.com/64806211/126032431-178d8f50-9622-44cb-8460-ddf2f358d6ed.png)
+
+
+
+
+
+
+
+
 
