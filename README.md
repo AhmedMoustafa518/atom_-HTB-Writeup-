@@ -224,7 +224,7 @@ second :
 
 
 ![last](https://user-images.githubusercontent.com/64806211/126033359-da977446-64ec-4c27-8f73-7ff62f912345.png)
-![lastrr](https://user-images.githubusercontent.com/64806211/126033363-d0c747a6-5b7f-4736-bf87-3799ee721565.png)
+
 
 
 
